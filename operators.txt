@@ -1,0 +1,41 @@
+arithmetic operators in python:
+
+addition --> +
+substraction --> -
+multiplication --> * 
+division --> /
+
+floor division --> // (returns only the integer part of the quotient)
+
+Modulus (Remainder) --> % 
+
+Exponent --> ** 
+
+
+
+Relational Operators: 
+
+greater than --> >
+less than --> <
+equal to --> ==
+greater than equal to --> >=
+less than or equal to --> <=
+not equal to --> != (also just ! =) 
+
+
+Logical Operators:
+
+and --> both have to be True in order to be printed True or they will print False
+Examples: print (True and True) #output will be True (since both are True)
+	  print (True and False) # output will be False (since both are not True)
+	  print (False and True) # output will be False (since both are not True, again)
+	  print (False and False) # output will be False (sine both are False)
+
+or --> either of them have to be True or both have to be True to make the output True or it will be False.
+Examples: print (True or False ) # output will be True because it has True
+	  print (True or True) # output will be True (obvious reasons)
+	  print (False or False) # output == False (obvious reasons)
+
+
+
+
