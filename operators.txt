@@ -69,3 +69,51 @@ print ("hello" > "hellp") # False will be returned. Also more characters if the 
 Length:- (len function)
 a = "hello"
 print (len(a))  # 5 (which is the number of characters in the word "hello")
+
+# Dynamic Typing:
+In Python one can just change types 
+
+a = "hello"
+print (a)  # a is printed as "hello"
+print (type(a))  # the type of a is string
+
+a = 10
+print (a) # instantly the value of a changes from "hello" to 10
+print (type(a)) # the type of a changed from string to integer now.
+
+this change in data type in a variable is called dynamic typing. in langauges like c or something like TypeScript, one cannot do this cz they are not loosely typed.
+
+
+RESERVED KEYWORDS IN PYTHON:
+and = "hello"
+print (and)
+
+# python won't be able to do it cz 'and' is already a function in python and so a reserved keywords 
+
+variable names are case-sensitive (Arka and arka are definately different)
+
+
+swaping variables values:
+a= 10
+b= 20
+print (a) # will output a == 10
+print (b) # will output b == 20
+a,b = b,a # SWAPS THE VARIABLES
+print (a) # will output a == 20
+print (b) # will output b == 10
+
+deleting a variable
+
+a = 12
+print (a) # will output 12
+del a # the memory space is freed and the variable a stored will be deleted
+print (a)  # error
+
+in operator:
+just prints out True or False if the word/ character is there.
+
+print ("hello" in "arka in hello world")
+# returns True since hello is in the sentence
+
+print ("hello" in "arka in wohooo world")
+# returns False since hello is not in the sentence.
