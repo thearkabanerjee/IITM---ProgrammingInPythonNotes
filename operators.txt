@@ -65,3 +65,7 @@ print ("hello" > "arka") # False is returned
 (compares letter by letter the one with the more alphabet number gets to be higher)
 
 print ("hello" > "hellp") # False will be returned. Also more characters if the first few characters are similar will make the one with more characters greater.
+
+Length:- (len function)
+a = "hello"
+print (len(a))  # 5 (which is the number of characters in the word "hello")
