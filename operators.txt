@@ -1,7 +1,7 @@
 arithmetic operators in python:
 
 addition --> +
-substraction --> -
+subtraction --> -
 multiplication --> * 
 division --> /
 
@@ -37,5 +37,31 @@ Examples: print (True or False ) # output will be True because it has True
 	  print (False or False) # output == False (obvious reasons)
 
 
+not --> just prints the opposite of what is written.
+Examples: print (not(True))  # output will be False
+	  print (not(False))  #output == True (Same thing the other way around)
 
 
+String Concatination:
+
+v1 = "Coffee"
+v2 = "Bread"
+
+print (v1+v2) # output will be "CoffeeBread"
+print (v1[0]) # output will be "C"
+
+print (v1[1:4]) # output will be "off" (note not the 4th one) # called String Slicing
+
+s = "hi"
+print (s*5)
+# output --> "hihihihihi"
+
+
+a = "India"
+print (a =="India")  # True is returned
+print (a == "india") # False is returned
+
+print ("hello" > "arka") # False is returned
+(compares letter by letter the one with the more alphabet number gets to be higher)
+
+print ("hello" > "hellp") # False will be returned. Also more characters if the first few characters are similar will make the one with more characters greater.
