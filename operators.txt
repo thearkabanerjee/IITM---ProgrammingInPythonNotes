@@ -190,4 +190,21 @@ example string: "Arka"
         output : True
 
 isalnum() --> returns True if all the characters in the string are either alphabets or numbers.
+example: string: "ArkaBanerjee"
+         print (string.isalnum())
+         output: True
 
+         string= "Arka99"
+         print(string.isalnum())
+         output: True
+
+         string= "99"
+         print (string.isalnum())
+         output: True
+
+strip() --> returns a trimmed version of the string
+example: string= "------Arka-------"
+         print (string.strip('-')) #in the argument of the function one has to input what to strip
+         output: "Arka"
+
+lstrip() --> returns 
