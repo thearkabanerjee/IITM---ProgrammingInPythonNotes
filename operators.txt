@@ -126,5 +126,19 @@ how to fix: (Escape Characters)
 1. print ('It\'s a beautiful day.')
 2. print ("We are from \"IIT\" Madras")
 3. print ("I am Arka.\n I am now writing code") (for going to the next sentence)
-4. print ("I am Arka. \t I am now writing code") (for giving a tab in between 2 sentences)
-5. 
+output: I am Arka
+        I am now writing code. 
+
+4. print ("I am Arka. \t I am now writing code") (for giving a tab in between 2 sentences. One can keep on putting \t so that they get multiple tabs in between statements)
+output: I am Arka.  I am now writing code. (there's a tab in between.)
+
+if you want to store the string divided in different lines:
+
+print ('''arka
+hello and
+thanks man''')
+
+comments of more than one line:
+''' mark is wired in right now. ''' 
+that's  comment.
+
