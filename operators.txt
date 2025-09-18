@@ -168,5 +168,26 @@ example string: "I aM ArKa"
         print (x.swapcase())
         output: i Am aRkA
 
-islower()
+islower() --> to find whether the input string is completely lowercase or not.
+example: string = "i am arka"
+         print (string.islower())
+         output: True
+
+isupper() --> to find whether the input string is completely uppercase or not.
+example: string = " I AM ARKA"
+         print (string.isupper())
+         output: True
+
+istitle() --> returns true if the string follows the rules of a title
+example string : "Am I Arka"
+        print (string.istitle())
+        output : True
+
+
+isalpha() --> returns true if all the characters in the string are alphabets.
+example string: "Arka"
+        print (string.isalpha())
+        output : True
+
+isalnum() --> returns True if all the characters in the string are either alphabets or numbers.
 
