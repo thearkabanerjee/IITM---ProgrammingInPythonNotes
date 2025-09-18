@@ -142,3 +142,31 @@ comments of more than one line:
 ''' mark is wired in right now. ''' 
 that's  comment.
 
+String Methods:
+ lower() --> converts a string into lower case.
+ example string: "I aM ArKa"
+         print (x.lower())
+         output: i am arka.
+
+upper() --> converts a string into upper case.
+example string: "I am Arka"
+        print (x.upper())
+        output : I AM ARKA
+
+capitalize() --> capitalizes the first character of the first word to upper case.
+example string: "I aM ArKa"
+        print (x.capitalize())
+        output: I am arka
+
+title() --> converts the first character of every word to capitalize.
+example string: " I aM ArKa"
+        print (x.title())
+        output: I Am Arka.
+
+swapcase() --> swaps cases, lower case becomes upper case and upper case becomes lower case.
+example string: "I aM ArKa"
+        print (x.swapcase())
+        output: i Am aRkA
+
+islower()
+
