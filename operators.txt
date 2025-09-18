@@ -124,3 +124,5 @@ print ('It's a beautiful day') # note how this has 3 single quotes. difficult fo
 
 how to fix: (Escape Characters)
 1. print ('It\'s a beautiful day.')
+2. print ("We are from \"IIT\" Madras")
+3. print ("I am Arka.\n I am now writing code")
