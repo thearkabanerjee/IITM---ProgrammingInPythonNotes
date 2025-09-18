@@ -216,3 +216,20 @@ rstrip() --> returns a trimmed version of the right side of string
 example: string = "-----Arka-----"
          print (string.rstrip('-'))
          output: "-----Arka"
+
+
+startswith() and endswith():
+
+startswith() 
+example: string = "Arka"
+         print (string.startswith('A'))
+         output: True
+
+         string = "Arka"
+         print (string.startswith('a'))
+         output: False
+
+endswith()
+example: string = "Arka"
+         print (string.endswith('a'))
+         output: True
