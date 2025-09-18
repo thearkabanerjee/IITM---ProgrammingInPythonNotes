@@ -125,4 +125,6 @@ print ('It's a beautiful day') # note how this has 3 single quotes. difficult fo
 how to fix: (Escape Characters)
 1. print ('It\'s a beautiful day.')
 2. print ("We are from \"IIT\" Madras")
-3. print ("I am Arka.\n I am now writing code")
+3. print ("I am Arka.\n I am now writing code") (for going to the next sentence)
+4. print ("I am Arka. \t I am now writing code") (for giving a tab in between 2 sentences)
+5. 
