@@ -233,3 +233,10 @@ endswith()
 example: string = "Arka"
          print (string.endswith('a'))
          output: True
+
+
+count(), index() and replace():
+
+count() --> returns the number a times a specific value occurs in a string.
+      example:
+
