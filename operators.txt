@@ -207,4 +207,12 @@ example: string= "------Arka-------"
          print (string.strip('-')) #in the argument of the function one has to input what to strip
          output: "Arka"
 
-lstrip() --> returns 
+lstrip() --> returns a trimmed version of the left side of string
+example: string = "------Arka-------"
+         print (string.lstrip('-')) # in the argument of the function one has to input what to strip from the left side.
+         output "Arka-------"
+
+rstrip() --> returns a trimmed version of the right side of string
+example: string = "-----Arka-----"
+         print (string.rstrip('-'))
+         output: "-----Arka"
