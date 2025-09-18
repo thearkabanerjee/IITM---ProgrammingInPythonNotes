@@ -117,3 +117,10 @@ print ("hello" in "arka in hello world")
 
 print ("hello" in "arka in wohooo world")
 # returns False since hello is not in the sentence.
+
+# Escape Characters and Use of Quotes 
+
+print ('It's a beautiful day') # note how this has 3 single quotes. difficult for the computer to understand.
+
+how to fix: (Escape Characters)
+1. print ('It\'s a beautiful day.')
